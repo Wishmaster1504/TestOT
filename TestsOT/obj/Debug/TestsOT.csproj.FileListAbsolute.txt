@@ -20,3 +20,14 @@ F:\GitHub\TestOT\TestsOT\obj\Debug\TestsOT.Form2.resources
 F:\GitHub\TestOT\TestsOT\obj\Debug\TestsOT.Properties.Resources.resources
 F:\GitHub\TestOT\TestsOT\obj\Debug\TestsOT.ResultForm.resources
 F:\GitHub\TestOT\TestsOT\obj\Debug\TestsOT.csproj.GenerateResource.Cache
+D:\GitHub\TestOT\TestsOT\bin\Debug\TestsOT.exe.config
+D:\GitHub\TestOT\TestsOT\obj\Debug\TestsOT.exe
+D:\GitHub\TestOT\TestsOT\obj\Debug\TestsOT.pdb
+D:\GitHub\TestOT\TestsOT\bin\Debug\TestsOT.exe
+D:\GitHub\TestOT\TestsOT\bin\Debug\TestsOT.pdb
+D:\GitHub\TestOT\TestsOT\obj\Debug\TestsOT.csprojResolveAssemblyReference.cache
+D:\GitHub\TestOT\TestsOT\obj\Debug\TestsOT.Form1.resources
+D:\GitHub\TestOT\TestsOT\obj\Debug\TestsOT.Form2.resources
+D:\GitHub\TestOT\TestsOT\obj\Debug\TestsOT.Properties.Resources.resources
+D:\GitHub\TestOT\TestsOT\obj\Debug\TestsOT.ResultForm.resources
+D:\GitHub\TestOT\TestsOT\obj\Debug\TestsOT.csproj.GenerateResource.Cache

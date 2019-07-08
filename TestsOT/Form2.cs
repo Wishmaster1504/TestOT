@@ -44,7 +44,7 @@ namespace TestsOT
             // clear
             QuestionNumber = 1;
             AnswerChoise = 0;
-            CountOfAllQuestions = 10;
+            CountOfAllQuestions = 10; // Количество вопросов для теста
 
             // заполнение коллекции с вопросами
             QRec.SetDataList(CountOfAllQuestions);

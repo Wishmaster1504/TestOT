@@ -9,3 +9,14 @@ I:\C# Projects\TestsOT\TestsOT\obj\Debug\TestsOT.exe
 I:\C# Projects\TestsOT\TestsOT\obj\Debug\TestsOT.pdb
 I:\C# Projects\TestsOT\TestsOT\obj\Debug\TestsOT.csprojResolveAssemblyReference.cache
 I:\C# Projects\TestsOT\TestsOT\obj\Debug\TestsOT.ResultForm.resources
+F:\GitHub\TestOT\TestsOT\bin\Debug\TestsOT.exe.config
+F:\GitHub\TestOT\TestsOT\obj\Debug\TestsOT.exe
+F:\GitHub\TestOT\TestsOT\obj\Debug\TestsOT.pdb
+F:\GitHub\TestOT\TestsOT\bin\Debug\TestsOT.exe
+F:\GitHub\TestOT\TestsOT\bin\Debug\TestsOT.pdb
+F:\GitHub\TestOT\TestsOT\obj\Debug\TestsOT.csprojResolveAssemblyReference.cache
+F:\GitHub\TestOT\TestsOT\obj\Debug\TestsOT.Form1.resources
+F:\GitHub\TestOT\TestsOT\obj\Debug\TestsOT.Form2.resources
+F:\GitHub\TestOT\TestsOT\obj\Debug\TestsOT.Properties.Resources.resources
+F:\GitHub\TestOT\TestsOT\obj\Debug\TestsOT.ResultForm.resources
+F:\GitHub\TestOT\TestsOT\obj\Debug\TestsOT.csproj.GenerateResource.Cache

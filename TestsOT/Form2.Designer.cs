@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.radioButton1 = new System.Windows.Forms.RadioButton();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -56,7 +57,7 @@
             this.richTextBox1.Location = new System.Drawing.Point(49, 29);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(680, 60);
+            this.richTextBox1.Size = new System.Drawing.Size(737, 117);
             this.richTextBox1.TabIndex = 2;
             this.richTextBox1.Text = "";
             // 
@@ -84,15 +85,15 @@
             this.panel1.Controls.Add(this.radioButton3);
             this.panel1.Controls.Add(this.radioButton2);
             this.panel1.Controls.Add(this.radioButton1);
-            this.panel1.Location = new System.Drawing.Point(49, 95);
+            this.panel1.Location = new System.Drawing.Point(49, 168);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(680, 213);
+            this.panel1.Size = new System.Drawing.Size(737, 259);
             this.panel1.TabIndex = 5;
             // 
             // radioButton4
             // 
             this.radioButton4.AutoSize = true;
-            this.radioButton4.Location = new System.Drawing.Point(15, 156);
+            this.radioButton4.Location = new System.Drawing.Point(15, 192);
             this.radioButton4.Name = "radioButton4";
             this.radioButton4.Size = new System.Drawing.Size(85, 17);
             this.radioButton4.TabIndex = 4;
@@ -103,7 +104,7 @@
             // radioButton3
             // 
             this.radioButton3.AutoSize = true;
-            this.radioButton3.Location = new System.Drawing.Point(15, 110);
+            this.radioButton3.Location = new System.Drawing.Point(15, 132);
             this.radioButton3.Name = "radioButton3";
             this.radioButton3.Size = new System.Drawing.Size(85, 17);
             this.radioButton3.TabIndex = 3;
@@ -114,7 +115,7 @@
             // radioButton2
             // 
             this.radioButton2.AutoSize = true;
-            this.radioButton2.Location = new System.Drawing.Point(15, 64);
+            this.radioButton2.Location = new System.Drawing.Point(15, 72);
             this.radioButton2.Name = "radioButton2";
             this.radioButton2.Size = new System.Drawing.Size(85, 17);
             this.radioButton2.TabIndex = 2;
@@ -124,9 +125,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(49, 314);
+            this.button1.Location = new System.Drawing.Point(49, 433);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(680, 23);
+            this.button1.Size = new System.Drawing.Size(737, 23);
             this.button1.TabIndex = 6;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
@@ -136,13 +137,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(783, 348);
+            this.ClientSize = new System.Drawing.Size(835, 480);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.richTextBox1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.MaximizeBox = false;
             this.Name = "Form2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Ответы на вопросы";

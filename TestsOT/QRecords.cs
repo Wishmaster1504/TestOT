@@ -39,7 +39,7 @@ namespace TestsOT
             catch (Exception)
             {
                 MessageBox.Show(@"Файл не найден");
-                filefound = false;
+                filefound = false; 
                 return; 
             }
             
@@ -51,10 +51,10 @@ namespace TestsOT
             if (totalQuestionCounts < questionCount) return;
 
             // сгенерируем массив случайно выбранных номеров вопросов
-            SetQn(questionNumbers, totalQuestionCounts);
+            SetQn(questionNumbers, totalQuestionCounts+1);
 
             number = 1;
-            for (int index = 0; index < lines.Length; index++)
+            /*for (int index = 0; index < lines.Length; index++)
             {
                 string t = lines[index];
                 if (!String.IsNullOrEmpty(t))
@@ -74,7 +74,28 @@ namespace TestsOT
                         number++;
                     }
                 }
+            }*/
+
+            for (int index = 0; index < questionNumbers.Count(); index++)
+            {
+                string t = lines[questionNumbers[index] - 1];
+                if (!String.IsNullOrEmpty(t))
+                {
+                    fileLine = t.Split(';');
+                    var a = new int();
+                    a = int.Parse(fileLine[0]);
+
+                     
+                    //создаём новую строку
+                    QuestonRecords.Add(new QuestonRecord(number, fileLine[1], fileLine[2],
+                            fileLine[3],
+                            fileLine[4], fileLine[5], int.Parse(fileLine[6])));
+
+                    number++;
+                    
+                }
             }
+
 
             // temp
             //QuestonRecords.Add(new QuestonRecord() { q_number = 1, question = "Вопрос 1", answer1 = "Answer1", answer2 = "answer2", answer3 = "answer3", answer4 = "answer4", right_answer = 1 });

@@ -116,7 +116,9 @@ namespace TestsOT
             radioButton2.Text = QuestonRecord.answer2;
             radioButton3.Text = QuestonRecord.answer3;
             radioButton4.Text = QuestonRecord.answer4;
-            
+
+            radioButton1.Checked = true;
+
             Refresh();
         }
 

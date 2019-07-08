@@ -1,0 +1,11 @@
+I:\C# Projects\TestsOT\TestsOT\bin\Debug\TestsOT.exe.config
+I:\C# Projects\TestsOT\TestsOT\bin\Debug\TestsOT.exe
+I:\C# Projects\TestsOT\TestsOT\bin\Debug\TestsOT.pdb
+I:\C# Projects\TestsOT\TestsOT\obj\Debug\TestsOT.Form1.resources
+I:\C# Projects\TestsOT\TestsOT\obj\Debug\TestsOT.Form2.resources
+I:\C# Projects\TestsOT\TestsOT\obj\Debug\TestsOT.Properties.Resources.resources
+I:\C# Projects\TestsOT\TestsOT\obj\Debug\TestsOT.csproj.GenerateResource.Cache
+I:\C# Projects\TestsOT\TestsOT\obj\Debug\TestsOT.exe
+I:\C# Projects\TestsOT\TestsOT\obj\Debug\TestsOT.pdb
+I:\C# Projects\TestsOT\TestsOT\obj\Debug\TestsOT.csprojResolveAssemblyReference.cache
+I:\C# Projects\TestsOT\TestsOT\obj\Debug\TestsOT.ResultForm.resources

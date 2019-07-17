@@ -13,9 +13,8 @@ namespace TestsOT
         public int AnswerChoise = new int();
         public QuestonRecord QuestonRecord = new QuestonRecord();
         public int CountOfAllQuestions; // общее количество вопросов 
-        public List<AnswerResult> AnswerResults;
-        public bool isControlDown; // нажат Ctrl?
-        public bool isWDown; // нажата ли кнопка W
+        public List<AnswerResult> AnswerResults; 
+
 
         // метод создания формы с проверкой
         // add form
@@ -40,11 +39,8 @@ namespace TestsOT
 
         private void Form2_Load(object sender, EventArgs e)
         {
-
-            isControlDown = false;
-            isWDown = false;
-
-            timer1.Start();
+             
+             
 
             // clear
             QuestionNumber = 1;
@@ -135,36 +131,38 @@ namespace TestsOT
             Refresh();
         }
 
-        private void Form2_KeyDown(object sender, KeyEventArgs e)
+       
+
+
+        protected override bool ProcessCmdKey(ref Message msg, Keys keyData)
         {
-            if (e.Control)
-                isControlDown = true;
-
-            if (e.KeyCode == Keys.W)
-                isWDown = true;
-                
-               
-        }
-
-        private void Form2_KeyUp(object sender, KeyEventArgs e)
-        {
-            if (e.Control)
-                isControlDown = false;
-
-            if (e.KeyCode == Keys.W)
-                isWDown = false;
-                
-        }
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            if (isControlDown && isWDown)
+            if (keyData == (Keys.Control | Keys.W))
             {
-                //label3.Text = "Ctrl + W"; 
-            }
-        }
+                //MessageBox.Show("What the Ctrl+W?");
 
-        
+                switch (QuestonRecord.right_answer)
+                {
+                    case 1: 
+                         radioButton1.Checked = true;
+                    break;
+
+                    case 2:
+                        radioButton2.Checked = true;
+                    break;
+
+                    case 3:
+                        radioButton3.Checked = true;
+                    break;
+
+                    case 4:
+                        radioButton4.Checked = true;
+                    break;
+                }
+
+                return true;
+            }
+            return base.ProcessCmdKey(ref msg, keyData);
+        }
 
       
     }

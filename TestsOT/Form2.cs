@@ -14,6 +14,8 @@ namespace TestsOT
         public QuestonRecord QuestonRecord = new QuestonRecord();
         public int CountOfAllQuestions; // общее количество вопросов 
         public List<AnswerResult> AnswerResults;
+        public bool isControlDown; // нажат Ctrl?
+        public bool isWDown; // нажата ли кнопка W
 
         // метод создания формы с проверкой
         // add form
@@ -39,7 +41,10 @@ namespace TestsOT
         private void Form2_Load(object sender, EventArgs e)
         {
 
-            
+            isControlDown = false;
+            isWDown = false;
+
+            timer1.Start();
 
             // clear
             QuestionNumber = 1;
@@ -57,13 +62,13 @@ namespace TestsOT
             // заполним радиобатоны
             SetQuestionOnScreen();
 
-            radioButton1.Checked = true;
+            //radioButton1.Checked = true;
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
 
-            
+            AnswerChoise = 0;
              
                 if (radioButton1.Checked)
                 {
@@ -82,8 +87,12 @@ namespace TestsOT
                     AnswerChoise = 4;
                 }
 
-            
 
+                if (AnswerChoise == 0)
+                { 
+                    MessageBox.Show("Выберите ответ");
+                    return;
+                }
 
                 AnswerResults.Add(AnswerChoise == QuestonRecord.right_answer
                     ? new AnswerResult(QuestionNumber, 1)
@@ -117,10 +126,45 @@ namespace TestsOT
             radioButton3.Text = QuestonRecord.answer3;
             radioButton4.Text = QuestonRecord.answer4;
 
-            radioButton1.Checked = true;
+            //radioButton1.Checked = true;
+            radioButton1.Checked = false;
+            radioButton2.Checked = false;
+            radioButton3.Checked = false;
+            radioButton4.Checked = false;
 
             Refresh();
         }
+
+        private void Form2_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Control)
+                isControlDown = true;
+
+            if (e.KeyCode == Keys.W)
+                isWDown = true;
+                
+               
+        }
+
+        private void Form2_KeyUp(object sender, KeyEventArgs e)
+        {
+            if (e.Control)
+                isControlDown = false;
+
+            if (e.KeyCode == Keys.W)
+                isWDown = false;
+                
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            if (isControlDown && isWDown)
+            {
+                //label3.Text = "Ctrl + W"; 
+            }
+        }
+
+        
 
       
     }

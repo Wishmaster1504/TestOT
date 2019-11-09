@@ -1,0 +1,11 @@
+F:\GitHub\TestOT\TestsOT\bin\Release\TestsOT.exe.config
+F:\GitHub\TestOT\TestsOT\bin\Release\TestsOT.exe
+F:\GitHub\TestOT\TestsOT\bin\Release\TestsOT.pdb
+F:\GitHub\TestOT\TestsOT\obj\Release\TestsOT.Form1.resources
+F:\GitHub\TestOT\TestsOT\obj\Release\TestsOT.Form2.resources
+F:\GitHub\TestOT\TestsOT\obj\Release\TestsOT.Properties.Resources.resources
+F:\GitHub\TestOT\TestsOT\obj\Release\TestsOT.ResultForm.resources
+F:\GitHub\TestOT\TestsOT\obj\Release\TestsOT.csproj.GenerateResource.cache
+F:\GitHub\TestOT\TestsOT\obj\Release\TestsOT.exe
+F:\GitHub\TestOT\TestsOT\obj\Release\TestsOT.pdb
+F:\GitHub\TestOT\TestsOT\obj\Release\TestsOT.csprojAssemblyReference.cache

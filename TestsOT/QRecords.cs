@@ -76,6 +76,8 @@ namespace TestsOT
                 }
             }*/
 
+            // почистим список
+            QuestonRecords.Clear();
             for (int index = 0; index < questionNumbers.Count(); index++)
             {
                 string t = lines[questionNumbers[index] - 1];
@@ -92,7 +94,7 @@ namespace TestsOT
                             fileLine[4], fileLine[5], int.Parse(fileLine[6])));
 
                     number++;
-                    
+                        
                 }
             }
 

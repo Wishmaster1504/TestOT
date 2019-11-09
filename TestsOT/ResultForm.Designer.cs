@@ -35,9 +35,10 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(224, 12);
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.button1.Location = new System.Drawing.Point(428, 12);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(86, 264);
+            this.button1.Size = new System.Drawing.Size(119, 532);
             this.button1.TabIndex = 1;
             this.button1.Text = "Закрыть";
             this.button1.UseVisualStyleBackColor = true;
@@ -45,17 +46,19 @@
             // 
             // listBox1
             // 
+            this.listBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 24;
             this.listBox1.Location = new System.Drawing.Point(12, 12);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(193, 264);
+            this.listBox1.Size = new System.Drawing.Size(396, 532);
             this.listBox1.TabIndex = 2;
             // 
             // ResultForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(320, 293);
+            this.ClientSize = new System.Drawing.Size(559, 565);
             this.Controls.Add(this.listBox1);
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedDialog;

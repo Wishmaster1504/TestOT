@@ -47,7 +47,7 @@ namespace TestsOT
             AnswerChoise = 0;
             CountOfAllQuestions = 10; // Количество вопросов для теста
 
-            // заполнение коллекции с вопросами
+            // заполнение коллекции с вопросами 
             QRec.SetDataList(CountOfAllQuestions);
             if (!QRec.FileIsFound()) Close();
              
